@@ -1,0 +1,108 @@
+.h1_chamba{
+    text-align: center;
+    background-attachment: fixed;    
+}
+
+.fondochamba{
+    background: bisque;
+    padding: 10px;
+}
+
+button{
+    text-decoration: none;
+    background: white;
+    color: black;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-start-start-radius: 10px;
+    border-start-end-radius: 10px;
+    padding: 10px;
+    border-bottom-style: none;
+}
+
+button:hover{
+    background: aqua;
+}
+
+.fondobottom{
+    background-color: burlywood;
+}
+
+nav{
+    justify-content: space-around;
+    display: flex;
+    padding: 20px;
+
+}
+
+a{
+    text-decoration: none;
+    color: black;
+
+}
+
+.div2{
+
+    padding: 15px;
+    font-size: 15px;
+    text-decoration: none;
+    display: flex;
+    justify-content:space-around ;
+    letter-spacing: 1px;
+    gap: 25px;
+    
+}
+
+.fondo{
+    background:bisque;
+    border: 10px;
+}
+
+.co{
+    flex: 10px;
+    padding: 10px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    text-justify:inter-word;
+    font-family: Verdana;
+}
+
+body{
+    background-image: url(fondo2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.card{
+    width: 300px;
+    border-radius: 10px;
+    background: bisque;
+}
+img{
+    width:300px ;
+    height:300px;
+    border-radius: 10px;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    background: white;
+ }
+
+.card-body{
+    text-align:justify;
+    font-size: 10px;
+    width: 290px;
+    white-space: 290px;
+}
+
+.headcard{
+    padding: 15px;
+    font-size: 15px;
+    text-decoration: none;
+    display: flex;
+    justify-content:space-around ;
+    letter-spacing: 1px;
+    gap: 25px;
+}

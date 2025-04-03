@@ -1,0 +1,48 @@
+body{
+    background: oldlace;
+}
+
+h1{
+    text-align: center;
+    background: bisque;
+    padding: 25px;
+    border-radius: 30px;
+    border: solid 1px grey;
+    width: auto;
+}
+
+#bigbox{
+    background: white 100px;
+    width: 80%;
+    max-width: 800px;
+    height: 600px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    border: solid 1px gray;
+}
+
+#mediumbox{
+    text-align: center;
+    display: grid;
+    place-items: center;
+    margin: auto;
+}
+
+#box{
+    background: bisque;
+    padding: 30px;
+    border-radius: 30px;
+    border: solid 1px grey;
+    width: 500px;
+}
+
+.casillas{
+    width: 100px;
+}
+
+.sig-env{
+    display: flexbox;
+}
